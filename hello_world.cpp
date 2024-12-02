@@ -1,12 +1,12 @@
 #include <iostream>
 
-// Основная функция программы
+// The main function of the program
 int main() {
-    // Запрос имени пользователя
+    // User Name Request
     std::string name;
     std::cout << "Введите ваше имя: ";
     std::cin >> name;
-    // Вывод приветствия
+    // The output of the greeting
     std::cout << "Hello world from @" << name << std::endl;
     return 0;
 }
